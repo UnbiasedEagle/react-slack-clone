@@ -1,0 +1,11 @@
+.messages-container {
+  height: 100vh !important;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.messages {
+  flex: 1 !important;
+  overflow-y: auto;
+}

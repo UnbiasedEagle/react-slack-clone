@@ -1,0 +1,30 @@
+.messages-header__channelName {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.messages-header__channelDetails {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.messages-header__users {
+  font-size: 1.2rem;
+  margin-top: 0;
+  color: gray;
+}
+
+.messages-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.messages-header__formContainer {
+  flex: 1;
+}
+
+.messages-header__form {
+  display: flex;
+  align-items: center;
+}
